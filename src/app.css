@@ -1,0 +1,37 @@
+@layer theme, base, components, utilities;
+
+@import "./styles/v1/colors.css" layer(theme);
+@import "./styles/v1/theme.css" layer(theme);
+@import "./styles/v2/colors.css" layer(theme);
+@import "./styles/v2/theme.css" layer(theme);
+
+@import "./styles/v1/base.css" layer(base);
+
+@import "./styles/v1/components/switch.css" layer(components);
+@import "./styles/v1/components/select.css" layer(components);
+@import "./styles/v1/components/button.css" layer(components);
+@import "./styles/v1/components/text-field.css" layer(components);
+@import "./styles/v1/components/tabs.css" layer(components);
+@import "./styles/v1/components/dialog.css" layer(components);
+@import "./styles/v1/components/card.css" layer(components);
+@import "./styles/v1/components/icon.css" layer(components);
+@import "./styles/v1/components/icon-button.css" layer(components);
+
+@import "./styles/v2/components/switch-v2.css" layer(components);
+@import "./styles/v2/components/select-v2.css" layer(components);
+@import "./styles/v2/components/button-v2.css" layer(components);
+@import "./styles/v2/components/text-input-v2.css" layer(components);
+@import "./styles/v2/components/tabs-v2.css" layer(components);
+@import "./styles/v2/components/dialog-v2.css" layer(components);
+@import "./styles/v2/components/badge-v2.css" layer(components);
+@import "./styles/v2/components/divider-v2.css" layer(components);
+@import "./styles/v2/components/field-v2.css" layer(components);
+@import "./styles/v2/components/icon-button-v2.css" layer(components);
+@import "./styles/v2/components/checkbox-v2.css" layer(components);
+@import "./styles/v2/components/tooltip-v2.css" layer(components);
+@import "./styles/v2/components/menu-v2.css" layer(components);
+
+@import "./styles/settings-v2.css" layer(components);
+
+@import "./styles/v1/utilities.css" layer(utilities);
+@import "./styles/v1/animations.css" layer(utilities);
